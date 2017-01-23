@@ -5,8 +5,11 @@ var Main = (props) => {
 	return (
 		<div>
 			<Nav></Nav>
-			<h2>Main Component</h2>
-			{props.children}
+			<div className="rom">
+				<div className="comlumns large-4 medium-6 small-centered">
+					{props.children}
+				</div>
+			</div>
 		</div>
 	);
 }
